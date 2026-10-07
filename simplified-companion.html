@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MSK Prep — opening…</title>
+<script>location.replace('./#simple');</script>
+<meta content="0; url=./#simple" http-equiv="refresh"/>
+<style>body{font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;margin:0;
+background:#fbfaf7;color:#1f2328;display:grid;place-items:center;min-height:100vh;text-align:center}
+a{color:#2f5d8a}</style>
+<link href="manifest.json" rel="manifest"/>
+<meta content="#34558b" name="theme-color"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<script id="rg-boot">(function(){try{var d=document.documentElement;
+if(localStorage.getItem('rguhs-theme')==='dark')d.classList.add('dark');
+if(localStorage.getItem('rguhs-fit')==='1')d.classList.add('fit');}catch(e){}})();</script><style id="rguhs-teal-theme">
+/* ===== RGUHS teal study theme (injected layer) ===== */
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --ink:#1b1f24; --muted:#5b6472;
+  --line:#e4e7eb; --line-2:#d3d8de;
+  --accent:#0f766e; --accent-ink:#0b5f59; --accent-soft:#e8f3f1;
+  --term:#4a5560; --term-dot:#9aa3ad;
+  --paper:#f6f7f9; --paper2:#eef1f4; --surface:#ffffff; --surface2:#f2f4f7;
+  --surface-2:#f2f4f7; --border:#e4e7eb; --rule:#e4e7eb; --rule-strong:#d3d8de;
+  --text:#1b1f24; --text-dim:#5b6472; --ink-dim:#5b6472;
+  --navy:#0f766e; --terra:#0b5f59; --terra-bg:#e8f3f1; --gold:#0f766e; --gold-bg:#e8f3f1;
+  --accent2:#0b5f59; --accent-dim:#99f6e4; --accent2-dim:#99f6e4;
+  --blue:#0f766e; --bar:#ffffff;
+  --ui-bg:#ffffff; --ui-ink:#1b1f24; --ui-line:rgba(20,30,50,.16); --ui-hover:rgba(20,30,50,.07); --ui-on:#e8f3f1;
+}
+html.dark, html[data-theme="dark"]{
+  --bg:#101216; --panel:#171a1f; --ink:#e7e9ed; --muted:#aab4c0;
+  --line:#262a31; --line-2:#333842;
+  --accent:#5eead4; --accent-ink:#5eead4; --accent-soft:#16292a;
+  --term:#c2cad4; --term-dot:#6b7683;
+  --paper:#101216; --paper2:#171a1f; --surface:#171a1f; --surface2:#1d2126;
+  --surface-2:#1d2126; --border:#262a31; --rule:#262a31; --rule-strong:#333842;
+  --text:#e7e9ed; --text-dim:#aab4c0; --ink-dim:#aab4c0; --dim:#aab4c0;
+  --navy:#5eead4; --terra:#5eead4; --terra-bg:#16292a; --gold:#5eead4; --gold-bg:#16292a;
+  --accent2:#5eead4; --accent-dim:#16292a; --accent2-dim:#16292a;
+  --blue:#5eead4; --bar:#171a1f;
+  --ui-bg:#1d2126; --ui-ink:#e7e9ed; --ui-line:rgba(255,255,255,.18); --ui-hover:rgba(255,255,255,.09); --ui-on:#16292a;
+}
+html,body{background:var(--bg)!important;color:var(--ink)!important;
+  font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif!important;font-size:17px;line-height:1.68;
+  -webkit-font-smoothing:antialiased;}
+body{background-image:none!important;}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif!important;color:var(--ink)!important;letter-spacing:normal!important;}
+a{color:var(--accent)!important;}
+a:hover{color:var(--accent-ink)!important;}
+::selection{background:var(--accent-soft);}
+/* top bars / nav */
+.pnav,.top,.bar,.pnav-in,.rtools{background:var(--panel)!important;border-color:var(--line)!important;color:var(--ink)!important;}
+.bar,.top{position:sticky;top:52px;z-index:70;}
+.rtools{display:none!important;}
+.pnav-in a.tab.on{border-color:var(--accent)!important;background:var(--accent-soft)!important;color:var(--accent-ink)!important;}
+.brand,.brand b{color:var(--accent-ink)!important;}
+/* cards / panels */
+.topic,.pcard,.homefoot,.sec-head,.refs,.exam-para,.tbl-wrap,.fig,.stat,.card,
+main article,main section,.crumb,.legend span{
+  background:var(--panel)!important;border-color:var(--line)!important;color:var(--ink)!important;
+  box-shadow:none!important;}
+.topic-top{border-left-color:var(--accent)!important;}
+.exam-para,.stat,.legend span,.t-meta .rbc,.rbc{background:var(--accent-soft)!important;color:var(--accent-ink)!important;border-color:var(--line)!important;}
+.bmnemonic,.bmnemonic::before{background:var(--accent-soft)!important;}
+.stars,.stars-sm,.open,.pcard .open,.ep-label,.kicker,.ptag,.pcard .ptag{color:var(--accent)!important;}
+.stars .dim,.stars-sm .dim{color:var(--line-2)!important;}
+/* tables */
+table{border-collapse:collapse;}
+th{background:var(--accent-soft)!important;color:var(--accent-ink)!important;border-color:var(--line)!important;}
+td{border-color:var(--line)!important;}
+thead th{background:var(--accent)!important;color:#fff!important;}
+html.dark thead th{color:#06231f!important;}
+/* toolbar */
+.rg-toolbar{position:sticky;top:0;z-index:900;display:flex;flex-wrap:nowrap;gap:8px;align-items:center;
+  padding:9px 20px;background:var(--panel);border-bottom:1px solid var(--line);font-size:13.5px;font-family:"Segoe UI",Roboto,Arial,sans-serif;
+  overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-ms-overflow-style:none;}
+.rg-toolbar::-webkit-scrollbar{height:0;display:none;}
+.rg-toolbar>*{flex:0 0 auto;}
+.rg-toolbar .lbl{color:var(--muted);font-weight:600;}
+.rg-toolbar .sw{width:22px;height:22px;border-radius:50%;border:1px solid var(--line-2);cursor:pointer;padding:0;}
+.rg-toolbar .sw.yellow{background:#ffe680;} .rg-toolbar .sw.green{background:#a8e6a3;} .rg-toolbar .sw.pink{background:#ffb3d1;}
+.rg-toolbar .btn{border:1px solid var(--line-2);background:var(--panel);color:var(--ink);border-radius:8px;padding:5px 10px;cursor:pointer;font:inherit;font-size:13px;}
+.rg-toolbar .btn:hover{background:var(--accent-soft);border-color:var(--accent);}
+.rg-toolbar .btn.active{background:var(--accent-soft);border-color:var(--accent);color:var(--accent-ink);font-weight:600;}
+.rg-toolbar .sep{width:1px;height:20px;background:var(--line-2);}
+.rg-toolbar .hint{margin-left:auto;color:var(--muted);font-size:12.5px;}
+html.fit .wrap,html.fit main{max-width:100%!important;}
+/* term popups */
+.term{color:var(--term);border-bottom:1px dotted var(--term-dot);cursor:help;}
+.term:hover{background:var(--accent-soft);border-bottom-color:var(--accent);}
+html.no-notes .term{border-bottom:none;color:inherit;cursor:inherit;background:none;}
+#rg-popup{position:absolute;z-index:1200;max-width:330px;display:none;padding:11px 13px;border-radius:9px;
+  background:#1c1f24;color:#f1f3f6;font-size:14px;line-height:1.5;box-shadow:0 12px 30px rgba(0,0,0,.28);font-family:"Segoe UI",Roboto,Arial,sans-serif;}
+html.dark #rg-popup{background:#2a2f36;color:#eef1f4;border:1px solid var(--line-2);}
+#rg-popup b{color:#fff;}
+mark.hl{border-radius:3px;padding:0 1px;color:inherit;}
+mark.hl.yellow{background:rgba(255,214,0,.38);}
+mark.hl.green{background:rgba(52,199,89,.32);}
+mark.hl.pink{background:rgba(255,90,150,.30);}
+/* glossary */
+.glossary{margin:26px 0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 18px;}
+.glossary summary{cursor:pointer;font-weight:700;padding:12px 0;}
+.gloss-hint{margin:0 0 8px;color:var(--muted);font-size:13.5px;}
+.glossary ul{font-size:14px;columns:2;column-gap:26px;}
+@media (max-width:680px){.glossary ul{columns:1;}}
+/* notes */
+.rg-fab{position:fixed;right:20px;bottom:20px;z-index:1100;display:inline-flex;align-items:center;gap:8px;
+  border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:999px;padding:11px 17px;
+  font:inherit;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.22);font-family:"Segoe UI",Roboto,Arial,sans-serif;}
+html.dark .rg-fab{color:#052622;}
+.rg-drawer{position:fixed;top:0;right:0;height:100%;width:min(430px,92vw);z-index:1300;background:var(--panel);
+  border-left:1px solid var(--line);box-shadow:-12px 0 34px rgba(0,0,0,.2);transform:translateX(102%);
+  transition:transform .22s ease;display:flex;flex-direction:column;font-family:"Segoe UI",Roboto,Arial,sans-serif;}
+.rg-drawer.open{transform:none;}
+.rg-drawer .dhead{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--line);}
+.rg-drawer .dhead strong{font-size:16px;}
+.rg-drawer .dclose{border:1px solid var(--line-2);background:var(--panel);color:var(--ink);border-radius:8px;padding:4px 11px;font:inherit;font-size:13px;cursor:pointer;}
+.rg-drawer .dhint{margin:10px 18px 2px;color:var(--muted);font-size:12.5px;}
+.rg-drawer .dbody{overflow:auto;padding:6px 18px 28px;}
+.rg-notes{width:100%;min-height:220px;resize:vertical;padding:10px 11px;font:inherit;font-size:14.5px;line-height:1.55;
+  color:var(--ink);background:var(--bg);border:1px solid var(--line-2);border-radius:8px;}
+.rg-notes:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft);}
+.rg-scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:1250;opacity:0;pointer-events:none;transition:opacity .22s ease;}
+.rg-scrim.open{opacity:1;pointer-events:auto;}
+.rg-toolbar .hint{display:none!important;}
+table,td{color:var(--ink)!important;}
+.stars .dim,.stars-sm .dim{color:var(--muted)!important;opacity:.55;}
+@media (max-width:520px){.rg-toolbar{gap:6px;padding:8px 12px;}.rg-toolbar .lbl{display:none;}}
+.abar-actions{display:none!important;}
+@media print{.rg-toolbar,#rg-popup,.rg-fab,.rg-drawer,.rg-scrim{display:none!important;}}
+</style></head>
+<body><div aria-label="Study tools" class="rg-toolbar" role="toolbar">
+<span class="lbl">Highlight</span>
+<button aria-label="Yellow highlighter" class="sw yellow" data-color="yellow" title="Yellow highlighter"></button>
+<button aria-label="Green highlighter" class="sw green" data-color="green" title="Green highlighter"></button>
+<button aria-label="Pink highlighter" class="sw pink" data-color="pink" title="Pink highlighter"></button>
+<button class="btn" id="rgErase">Erase</button>
+<button class="btn" id="rgClearAll">Clear all</button>
+<span class="sep"></span>
+<button class="btn active" id="rgToggleNotes">Term notes</button>
+<button class="btn" id="rgToggleRead" title="Reading mode - bigger text, hide navigation">Reading</button>
+  <button class="btn" id="rgToggleTheme">Night mode</button>
+<button class="btn" id="rgToggleFit">Fit to screen</button>
+<span class="hint">Select text, then pick a colour. Notes save automatically.</span>
+</div>
+<div id="rg-popup"></div>
+<button aria-expanded="false" class="rg-fab" id="rgNotesFab">✎ Study Notes</button>
+<div class="rg-scrim" id="rgScrim"></div>
+<aside aria-label="Study notes" class="rg-drawer" id="rgDrawer">
+<div class="dhead"><strong>Study Notes</strong><button class="dclose" id="rgDrawerClose">Close</button></div>
+<p class="dhint">Your notes for this page — saved automatically in this browser.</p>
+<div class="dbody"><textarea class="rg-notes" id="rgPageNote" placeholder="Write your notes for this page..."></textarea></div>
+</aside>
+<div>
+<p>The simple answers now live inside the main app.</p>
+<p><a href="./#simple">Open MSK Prep →</a></p>
+</div>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}</script>
+<script id="rg-tools">
+(function(){
+  var root=document.documentElement, PERSIST=false, KEY='rguhs';
+  var content=document.querySelector('#content, main, .wrap')||document.body;
+  var popup=document.getElementById('rg-popup'), pinned=null;
+
+  function syncTheme(){var d=root.classList.contains('dark');var b=document.getElementById('rgToggleTheme');
+    if(b){b.textContent=d?'Day mode':'Night mode';b.classList.toggle('active',d);}}
+  function syncFit(){var f=root.classList.contains('fit');var b=document.getElementById('rgToggleFit');
+    if(b){b.textContent=f?'Fit: on':'Fit to screen';b.classList.toggle('active',f);}}
+  syncTheme(); syncFit();
+
+  var hlKey=KEY+'-hl-'+location.pathname;
+  if(PERSIST){try{var saved=localStorage.getItem(hlKey);if(saved)content.innerHTML=saved;}catch(e){}}
+  function saveHl(){if(!PERSIST)return;try{localStorage.setItem(hlKey,content.innerHTML);}catch(e){}}
+  function selRange(){var s=window.getSelection();if(!s||s.rangeCount===0||s.isCollapsed)return null;
+    var r=s.getRangeAt(0);if(!content.contains(r.commonAncestorContainer))return null;return r;}
+  function highlight(c){var r=selRange();if(!r)return;var m=document.createElement('mark');m.className='hl '+c;
+    try{r.surroundContents(m);}catch(e){m.appendChild(r.extractContents());r.insertNode(m);}
+    window.getSelection().removeAllRanges();saveHl();}
+  function eraseSel(){var r=selRange();if(!r)return;var ch=false;
+    content.querySelectorAll('mark.hl').forEach(function(m){if(r.intersectsNode(m)){m.parentNode.replaceChild(document.createTextNode(m.textContent),m);ch=true;}});
+    window.getSelection().removeAllRanges();if(ch)saveHl();}
+
+  var tb=document.querySelector('.rg-toolbar');
+  if(tb)tb.addEventListener('mousedown',function(e){if(e.target.closest('button'))e.preventDefault();});
+  if(tb)tb.addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b)return;
+    if(b.dataset.color){highlight(b.dataset.color);}
+    else if(b.id==='rgErase'){eraseSel();}
+    else if(b.id==='rgClearAll'){content.querySelectorAll('mark.hl').forEach(function(m){m.parentNode.replaceChild(document.createTextNode(m.textContent),m);});saveHl();}
+    else if(b.id==='rgToggleNotes'){root.classList.toggle('no-notes');b.classList.toggle('active',!root.classList.contains('no-notes'));if(root.classList.contains('no-notes')){pinned=null;if(popup)popup.style.display='none';}}
+    else if(b.id==='rgToggleTheme'){root.classList.toggle('dark');try{localStorage.setItem(KEY+'-theme',root.classList.contains('dark')?'dark':'light');}catch(x){}syncTheme();}
+    else if(b.id==='rgToggleFit'){root.classList.toggle('fit');try{localStorage.setItem(KEY+'-fit',root.classList.contains('fit')?'1':'0');}catch(x){}syncFit();}
+  });
+
+  function showPopup(el){if(!popup)return;var r=el.getBoundingClientRect();
+    popup.innerHTML='<b>'+el.textContent+'</b><br>'+el.getAttribute('data-note');
+    popup.style.display='block';var pw=popup.offsetWidth,ph=popup.offsetHeight;
+    var left=window.scrollX+r.left, top=window.scrollY+r.bottom+8, vw=document.documentElement.clientWidth;
+    if(left+pw>window.scrollX+vw-12)left=window.scrollX+vw-pw-12; if(left<window.scrollX+8)left=window.scrollX+8;
+    if(r.bottom+ph+20>window.innerHeight)top=window.scrollY+r.top-ph-8;
+    popup.style.left=left+'px';popup.style.top=top+'px';}
+  function hidePopup(){if(!pinned&&popup)popup.style.display='none';}
+  document.addEventListener('mouseover',function(e){var t=e.target.closest?e.target.closest('.term'):null;
+    if(t&&t.getAttribute('data-note')&&!root.classList.contains('no-notes'))showPopup(t);});
+  document.addEventListener('mouseout',function(e){var t=e.target.closest?e.target.closest('.term'):null;if(t&&t!==pinned)hidePopup();});
+  document.addEventListener('click',function(e){var t=e.target.closest?e.target.closest('.term'):null;
+    if(t){if(root.classList.contains('no-notes'))return;if(pinned===t){pinned=null;if(popup)popup.style.display='none';}else{pinned=t;showPopup(t);}return;}
+    if(!e.target.closest||!e.target.closest('#rg-popup')){pinned=null;if(popup)popup.style.display='none';}});
+  window.addEventListener('scroll',function(){if(pinned)showPopup(pinned);},{passive:true});
+  document.addEventListener('keydown',function(e){
+    if((e.key==='Enter'||e.key===' ')&&document.activeElement&&document.activeElement.classList&&document.activeElement.classList.contains('term')){e.preventDefault();pinned=document.activeElement;showPopup(pinned);}
+    if(e.key==='Escape'){pinned=null;if(popup)popup.style.display='none';closeDrawer();}});
+
+  var drawer=document.getElementById('rgDrawer'),scrim=document.getElementById('rgScrim'),
+      fab=document.getElementById('rgNotesFab'),note=document.getElementById('rgPageNote');
+  function openDrawer(o){if(!drawer)return;drawer.classList.toggle('open',o);scrim.classList.toggle('open',o);if(fab)fab.setAttribute('aria-expanded',o?'true':'false');}
+  function closeDrawer(){openDrawer(false);}
+  if(fab){fab.addEventListener('click',function(){openDrawer(!drawer.classList.contains('open'));});
+    document.getElementById('rgDrawerClose').addEventListener('click',closeDrawer);
+    scrim.addEventListener('click',closeDrawer);}
+  if(note){var nk=KEY+'-note-'+location.pathname;
+    try{var v=localStorage.getItem(nk);if(v)note.value=v;}catch(e){}
+    note.addEventListener('input',function(){try{localStorage.setItem(nk,note.value);}catch(e){}});}
+  var rb=document.getElementById('rgToggleRead');
+  if(rb)rb.addEventListener('click',function(){var t=document.getElementById('btn-read');if(t){t.click();rb.classList.toggle('active',t.getAttribute('aria-pressed')==='true');}});
+})();
+</script></body>
+</html>
